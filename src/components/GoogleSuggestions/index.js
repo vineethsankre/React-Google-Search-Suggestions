@@ -49,6 +49,16 @@ class GoogleSuggestions extends Component {
                 onChange={this.onChangeSearchInput}
                 value={searchInput}
               />
+              <img
+                className="mic-icon"
+                src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png"
+                alt="mic icon"
+              />
+              <img
+                className="lens-icon"
+                src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-06-512.png"
+                alt="lens icon"
+              />
             </div>
             <ul className="suggestions-list">
               {searchResults.map(eachSuggestion => (
