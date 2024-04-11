@@ -11,7 +11,7 @@ const SuggestionItem = props => {
   return (
     <li className="suggestion-item">
       <p className="search-suggestion">{suggestion}</p>
-      <button type="button" onClick={onClickArrow}>
+      <button className="arrow-btn" type="button" onClick={onClickArrow}>
         <img
           className="arrow-icon"
           alt="arrow"

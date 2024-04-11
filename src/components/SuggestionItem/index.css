@@ -2,16 +2,21 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-top: 0px;
+  margin-top: 16px;
 }
 .search-suggestion {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Roboto';
   color: #475569;
+  margin: 0;
+}
+.arrow-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 .arrow-icon {
-  width: 25px;
+  width: 16px;
+  height: 16px;
 }
