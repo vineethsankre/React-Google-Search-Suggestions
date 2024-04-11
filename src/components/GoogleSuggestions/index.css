@@ -28,6 +28,7 @@
 }
 .search-icon {
   width: 16px;
+  height: 16px;
 }
 .search {
   border: none;
@@ -44,4 +45,42 @@
   padding-right: 16px;
   padding-bottom: 12px;
   margin: 0;
+}
+
+@media screen and (min-width:768px){
+  .google-suggestions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+  .google-logo {
+    width: 270px;
+    height: 90px;
+  }
+  .search-suggestions-container {
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 600px;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding:4px 12px;
+  }
+  .search-icon {
+    width: 22px;
+    height: 22px;
+  }
+  .search{
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+  .suggestions-list{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+  }
 }
