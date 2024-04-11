@@ -20,3 +20,14 @@
   width: 16px;
   height: 16px;
 }
+
+@media screen and (min-width:768px){
+  .search-suggestion {
+    font-size: 20px;
+  }
+  .arrow-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+}
