@@ -1,6 +1,6 @@
 In this project, we will build a **Google Search Suggestions** react app.
 
-### Refer to the image below:
+### Desired-Output:
 
 <br/>
 <div style="text-align: center;">
