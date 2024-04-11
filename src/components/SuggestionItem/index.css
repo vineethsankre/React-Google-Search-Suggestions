@@ -1,0 +1,17 @@
+.suggestion-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+.search-suggestion {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.arrow-icon {
+  width: 25px;
+}
